@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="convert" method="post">
+		<!--Dollar:<input type="text" name="dollar" id="d1"></input> -->
+		<!--  INR:<input type="text" name="inr" id="i1"></input> -->
+			
+			 Form:<select onchange="convert">
+			
+			<option>select</option>	
+			<option value="convert" name="inr">INR</option>
+			<option value="convert" name="dollar">Dollar</option>
+			<option value="convert">Euro</option>
+		    </select> 
+		    
+		To:<select onclick="convert">
+            <option>select</option>		
+			<option value="convert" name="inr">INR</option>
+			<option value="convert" name="dollar">Dollar</option>
+			<option value="convert">Euro</option>
+		</select>
+		 
+		<!--  <input type="radio" value="btn" name="gender"></input> -->
+		<!--  <input type="radio" value="btn1" name="gender"></input> -->
+		 <button type="submit" name="con" id="c1" value="convert">ToConvert</button>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Dollar:<input type="text" name="dollar" id="d1"></input>
+INR:<input type="text" name="inr" id="i1"></input>
+
+<button type="submit" name="convert" id="c1" value="convert">ToConvert</button>
+</body>
+</html>

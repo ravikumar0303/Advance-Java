@@ -1,0 +1,26 @@
+package com.IET.convert;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Converter extends HttpServlet{
+	
+	public void doPost(HttpServletRequest req,HttpServletResponse resp) throws IOException {
+		
+		resp.setContentType("text/html");
+		PrintWriter out=resp.getWriter();
+		String dollar=req.getParameter("dollar");
+		String inr=req.getParameter("int");
+		
+		
+		if(dollar.equals("")) {
+			int d=Integer.parseInt(inr)/80;
+			out.print(d);
+		}
+	}
+
+}

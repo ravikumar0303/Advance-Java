@@ -1,0 +1,9 @@
+package com.IET.factorial;
+
+import javax.servlet.http.HttpServlet;
+
+public class Factorial extends HttpServlet{
+	
+	private
+
+}

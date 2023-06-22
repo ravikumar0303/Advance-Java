@@ -1,0 +1,7 @@
+package com.IET.factorial;
+
+public class Factorial extends HttpServlet{
+	
+	private
+
+}

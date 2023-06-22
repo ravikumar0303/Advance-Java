@@ -1,0 +1,15 @@
+package com.IET.factorial;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Factorial extends HttpServlet {
+
+	private int f = 0;
+
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) {
+      resp.setContentType("text/html");
+      printWriter wrt=
+	}
+}

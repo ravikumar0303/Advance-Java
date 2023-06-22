@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="cal" method="get">
+<table>
+<tr><td>rupees</td><td>doller</td></tr></table>	
+ number1:<input type="text" name="dollar" id="d1" placeholder="num1"></input>
+ number2:<input type="text" name="inr" id="i1" placeholder="num2"></input>
+  <br></br>  <br></br>  <br></br>
+<button type="submit" id="dollar" name="btn" value="add">Additio</button>
+ &nbsp;
+<button type="submit" id="inr" name="btn" value="factorial">fact</button>
+</form>
+</body>
+</html>
+
+
+
+
