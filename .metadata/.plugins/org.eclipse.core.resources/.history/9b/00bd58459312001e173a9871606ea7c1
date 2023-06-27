@@ -1,0 +1,27 @@
+package com.IET.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBUtil {
+	
+	private static Connection conn;
+	
+	public static Connection getMyConnection() {
+		if(conn==null) {
+			
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+			
+			conn=DriverManager.getConnection("jdbc:mysql://192.168.10.1501:3306/dac57_campus?useSSL=false","dac57_campus","welcome");
+                if(conn!=null) {
+                	System.out.println("Connection Done...");
+                }			
+					
+		}
+		
+		return conn;
+		
+		
+	}
+
+}

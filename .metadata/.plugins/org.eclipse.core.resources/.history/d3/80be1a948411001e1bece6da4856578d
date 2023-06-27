@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>online exam</title>
+</head>
+   <b>Q1: Who invented Java Programming?</b><br>
+   
+   <button type="radio" value="op1",name="o">Guido van Rossum</button>
+   <br>
+   <button type="radio" value="op",name="o">James Gosling</button>
+   <br>
+   <button type="radio" value="op",name="o">Dennis Ritchie</button>
+   <br>
+   <button type="radio" value="op1",name="o"> Bjarne Stroustrup</button>
+<body>
+
+</body>
+</html>

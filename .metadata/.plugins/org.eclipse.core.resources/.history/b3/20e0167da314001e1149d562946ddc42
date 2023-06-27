@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+   import="com.IET.beans.Employee" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+     Person e=new Person;
+     <jsp:useBean id="e" class="com.IET.beans.Employee" scope="session"></jsp:useBean>
+     
+     Eid:<jsp:getProperty property="eid" name="e"></jsp:getProperty>  <%= e.getEid() %>
+     Ename:<jsp:getProperty property="ename" name="e"></jsp:getProperty>---${e.ename}
+     
+</body>
+</html>

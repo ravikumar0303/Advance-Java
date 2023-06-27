@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>calculator</title>
+
+</head>
+<body>
+	<br></br>
+	<div>
+		<table border="2px">
+			<tr>
+				<td>
+					<form action="ToCalculate.jsp" method="doPost" /> 
+				   <b></form> num1: <input type="text" name="num1" id="num1" placeholder="number1"/> 
+					<b>num2:<input type="text"name="num2" id="num2" placeholder="number2"/>
+					
+					 <select onClick="btn" id="btn" name="btn">
+						<option>select</option>
+						<option value="add" id="btn">Addition</option>
+						<option value="sub" id="btn">Sub</option>
+						<option value="mul" id="btn">mul</option>
+						<option value="div" id="btn">div</option>
+				</select><br><br><br>
+					<button type="submit" name="btn" id="btn">DoCalculate</button>
+
+
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br><br><br>
+	<hr><hr>
+	
+	                      <h1>calculator</h1>
+	                      
+	                      <br></br>
+	<div>
+		<table border="2px">
+			<tr>
+				<td>
+					<form action="calci.jsp" method="doPost" /> 
+				   <b></form> num: <input type="text" name="num" id="num" placeholder="number"/> 
+					
+					    <select onClick="btn" id="btn" name="btn">
+						<option>select</option>
+						<option value="fact" id="btn">factorial</option>
+						<option value="squ" id="btn">Square</option>
+						<option value="qub" id="btn">Qub</option>
+						
+				</select><br><br><br>
+					<button type="submit" name="btn1" id="btn1">DoCalculate</button>
+
+
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	
+	
+</body>
+</html>

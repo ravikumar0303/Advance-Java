@@ -1,0 +1,13 @@
+package com.IET.beans;
+
+public class ProductMain {
+	
+	public Object text() {
+		
+		return null;
+		
+	}
+	
+
+
+}

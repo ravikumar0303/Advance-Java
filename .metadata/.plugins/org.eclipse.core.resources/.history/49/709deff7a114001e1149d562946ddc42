@@ -1,0 +1,13 @@
+package com.IET.beans;
+
+public class Employee {
+	
+	private int eid;
+	private String ename;
+	private float sal;
+	
+	public Employee() {
+		super();
+	}
+
+}

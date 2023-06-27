@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>calculator</title>
+
+</head>
+<body>
+      <form action="ToCalculate.jsp" method="doPost"/>
+      
+         num1: <input type="text" name="num1" id="num1"/>
+         num2:<input type="text" name="num2" id="num2"/>
+         
+         <select onClick="btn" id="btn" name="btn">
+          <option>select</option>
+          <option value="add" id="btn">Addition</option>
+          <option value="sub">Sub</option>
+          <option value="mul">mull</option>
+          <option value="div">div</option>              
+         </select>
+         <button type="submit" name="btn"id="btn">DoCalculate</button>>
+         <!--  <button type="submit" name="btn" id="btn" value="add">Addition</button>
+                   -->
+      </form>
+</body>
+</html>

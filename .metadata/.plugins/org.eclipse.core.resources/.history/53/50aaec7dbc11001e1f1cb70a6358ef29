@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>online exam</title>
+</head>
+<center>
+
+<body><td>
+<div style="border:2px">
+<form>
+   <b>Q1: Who invented Java Programming?</b><br>
+   
+   <input type="radio" value="op1" name="op1">Guido van Rossum</input>
+   <br>
+   <input type="radio" value="op1" name="op1">James Gosling</input>
+   <br>
+   <input type="radio" value="op" name="op1">Dennis Ritchie</input>
+   <br>
+   <input type="radio" value="op1" name="op1"> Bjarne Stroustrup</input>  
+   <br></br>
+   <button type="submit">next</button>&nbsp &nbsp&nbsp &nbsp
+   <button type="submit">prev</button>&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+   <button type="submit">submit exam</button>
+</form>
+</td>
+</center>
+</div>
+</body>
+</html>
+

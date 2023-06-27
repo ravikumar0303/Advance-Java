@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<center>
+ID:<input type="text" name="eid" id="eid"/>
+Name:<input type="text" name="ename" id="ename"/>
+Salary:<input type="text" name="sal" id="sal"/>
+<button type="submit" name="btn" id="btn" value="btn">Add emp</button>
+</center>
+</form>
+</body>
+</html>

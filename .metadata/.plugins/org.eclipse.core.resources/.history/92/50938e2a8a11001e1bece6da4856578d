@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>online exam</title>
+
+</head>
+<center>
+	<h1>Register for Exam</h1>
+	<body>
+
+		<form>
+			<table border>
+			
+				<td><br>
+				<lable for="n1">name:</lable>>
+				<input type="text" id="n1"></input> 
+				<br></br> 	
+				<lable for="a1">Address:</lable>	
+					<input type="text" id="a1"></input>
+					 <br></br>
+					 <lable for="m1"> mobile:</lable>
+				        <input type="text"	id="m1"></input> <br></br> 
+					     Subject:<select>
+						<option>select</option>
+						<option value="cop">COP</option>
+						<option value="os">OS</option>
+						<option value="dbt">DBT</option>
+						<option value="wpt">WPT</option>
+						<option value="corejava">CORE JAVA</option>
+
+				</select> <br></br> 
+				     password:<input type="text" id="p1"></input> <br></br>
+					confirm password:<input type="text" id="c1"></input> <br></br>
+					<button type="submit" id="b1" value="submit">submit</button> <br></br>
+				</td>
+			</table>
+		</form>
+
+	</body>
+
+</center>
+
+</html>

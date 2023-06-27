@@ -1,0 +1,5 @@
+package com.IET.service;
+
+public interface ProductService {
+
+}

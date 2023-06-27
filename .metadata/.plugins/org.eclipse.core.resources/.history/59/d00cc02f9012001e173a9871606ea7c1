@@ -1,0 +1,5 @@
+package com.IET.beans;
+
+public class Product {
+
+}
