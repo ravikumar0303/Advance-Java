@@ -1,7 +1,0 @@
-package com.IET.service;
-
-public class ProductServiceImp implements ProductService{
-	
-	private ProductDao pdao;
-
-}

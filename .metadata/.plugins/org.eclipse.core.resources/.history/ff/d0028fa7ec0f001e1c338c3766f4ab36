@@ -1,9 +1,0 @@
-package com.IET.convert;
-
-import javax.servlet.http.HttpServlet;
-
-public class Converter extends HttpServlet{
-	
-	public void doPost(HttpservletRequest req,HttpservletResponce resp)
-
-}

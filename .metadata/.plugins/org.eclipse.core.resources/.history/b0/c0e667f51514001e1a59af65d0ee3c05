@@ -1,7 +1,0 @@
-package com.IET.costomtag;
-
-import javax.servlet.jsp.tagext.TagSupport;
-
-public class CalculateTag extends TagSupport {
-
-}

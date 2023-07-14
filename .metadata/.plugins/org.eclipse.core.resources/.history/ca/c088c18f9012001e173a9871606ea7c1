@@ -1,7 +1,0 @@
-package com.IET.dao;
-
-public class DBUtil {
-	
-	private static Connection con;
-
-}

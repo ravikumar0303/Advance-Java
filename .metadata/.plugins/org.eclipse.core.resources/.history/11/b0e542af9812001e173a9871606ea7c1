@@ -1,5 +1,0 @@
-package com.IET.servlet;
-
-public interface ProductService {
-
-}
